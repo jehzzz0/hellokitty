@@ -38,7 +38,7 @@ color: pink;
     background-size: 100px;
   }
   .bloco2{
-    background-color: peru;
+    background-color: aquamarine;
     width: 100px;
     margin: 5px;
     font-size: 70px;
@@ -49,4 +49,16 @@ color: pink;
   }
   video{
     width: 500px;
+  }
+  h1{
+    background-color: plum;
+    text-align: center;
+
+  }
+  label{
+    color: plum;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  input{
+    width: 400px;
   }
