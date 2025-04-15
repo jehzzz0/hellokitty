@@ -22,15 +22,16 @@ color: pink;
     flex-direction: row;
   }
   .bloco-interno{
-    width: 100px;
+    width: 110px;
+    height: 110;
     margin:5px ;
     font-size: 70px;
     text-align: center;
   }
   .bloco1{
     background-color: aquamarine;
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     margin: 5px;
     font-size: 70px;
     text-align: center;
@@ -39,7 +40,8 @@ color: pink;
   }
   .bloco2{
     background-color: aquamarine;
-    width: 100px;
+    width: 110px;
+    height: 110px;
     margin: 5px;
     font-size: 70px;
     text-align: center;
@@ -48,11 +50,12 @@ color: pink;
 
   }
   video{
-    width: 500px;
+    width: 460px;
   }
   h1{
     background-color: plum;
     text-align: center;
+    width: auto
 
   }
   label{
@@ -61,4 +64,11 @@ color: pink;
   }
   input{
     width: 400px;
+  }
+  iframe{
+    width: 1200px;
+  }
+  @media (max-width: 500px){
+    iframe{width:420px}
+    a{color: rgb(209, 48, 209);}
   }
